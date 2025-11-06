@@ -51,3 +51,30 @@ color: #f5deb3;
 
 [type="submit"]:hover {
     background: #000080;
+}
+
+
+/* Project Cards styling */
+.pro_card {
+    margin-bottom: 20px;
+    height: 540px;
+    text-align: center;
+}
+
+.images {
+    width: auto;
+    align-self: center;
+    min-height: 250px;
+}
+
+#projects .card-text {
+    min-height: 100px;    
+}
+
+#projects .card-title {
+    min-height: 70px;
+}
+
+#projects .btn {
+    min-height: 20px;
+}
