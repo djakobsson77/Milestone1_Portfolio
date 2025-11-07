@@ -53,28 +53,17 @@ color: #f5deb3;
     background: #000080;
 }
 
-
-/* Project Cards styling */
-.pro_card {
-    margin-bottom: 20px;
-    height: 540px;
-    text-align: center;
+/* Projects section card styling */
+.card {
+    height: 100%;
 }
 
-.images {
-    width: auto;
-    align-self: center;
-    min-height: 250px;
+.card-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
 
-#projects .card-text {
-    min-height: 100px;    
-}
-
-#projects .card-title {
-    min-height: 70px;
-}
-
-#projects .btn {
-    min-height: 20px;
+.card-text {
+    flex-grow: 1;
 }
