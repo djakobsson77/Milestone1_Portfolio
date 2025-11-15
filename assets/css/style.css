@@ -16,6 +16,10 @@ body {
     background-color: #87cefa;
 }
 
+.nav-item:hover {
+    font-weight: 900;
+}
+
 /* Logo image styling */
 .logo {
     width:  50px;
