@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*  #f5deb3; Wheat
+    #00173c; Oxford Blue
+    #87cefa; LightSkyBlue
+    #000000; Black */
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #00173c;
+    color: #f5deb3;
+}
+
+[data-key] {
+    white-space: normal;
+}
+
+
+
+/* Navbar styling */
+#navbar {
+    background-color: #87cefa;
+}
+
+.nav-item:hover {
+    font-weight: 900;
+}
+
+.flag-btn {
+    width: 26px;        /* lagom storlek */
+    cursor: pointer;    /* visar att det är klickbart */
+    margin: 0 4px;
+    transition: opacity 0.2s ease;
+}
+
+.flag-btn:hover {
+    opacity: 0.7;
+}
+
+
+/* Logo image styling */
+.logo {
+    width:  50px;
+    height: auto;
+}
+
+/* Main Content image styling */
+ .coder {
+    min-width: 70%;
+    height: auto;
+}
+
+.typing {
+    margin-top: 88px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* success page return button styling */
+.success_return {
+background-color: #00173c;
+color: #f5deb3;
+}
+
+.success_return:hover {
+    background-color: #0000b0;
+    color: #f5deb3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: #f5deb3;
+}
+
+.contact-input {
+width: 60%;
+background-color: transparent;
+color: #f5deb3;
+}
+
+[type="submit"] {
+    width: 30%;
+    background: #00173c;
+    border-radius: 200px;
+    border: 0;
+    cursor: pointer;
+    color: #f5deb3;
+}
+
+[type="submit"]:hover {
+    background: #000080;
+}
+
+/* Projects section card styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 350px;   
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-body a.btn {
+    margin-top: auto;
+}
+
+.card-body ul {
+    text-align: left;
+}
+
+.project-img {
+    height: 150px;
+    width: auto;
+    margin: auto;
+    border-radius: 6px;
+}
+
+/* About me section styling */
+.certs {
+    height: 100px;
+    margin: 5px;
+}
+
+.selfie {
+    height: 400px;
+}
+
+#about_title {
+    margin: auto;
+}
+
+.ordered_flx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}

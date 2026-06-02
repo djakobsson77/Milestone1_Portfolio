@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio for Daniel Jacobsson">
+    <meta name="keywords" content="Portfolio, web development, coding, programmimg, projects">
+    <meta name="author" content="Daniel Jacobsson">
+
+    <title>Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Custom CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id=navbar class="navbar navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-brand">
+                    Daniel Jacobsson
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                         <li class="nav-item ms-3">
+                            <img src="assets/images/se.webp" id="lang-sv" class="flag-btn" alt="Swedish">
+                        </li>
+                        <li class="nav-item">
+                            <img src="assets/images/usuk.png" id="lang-en" class="flag-btn" alt="English">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" id="about_title">
+            <div class="row">
+                <div class="text-center my-4">
+                    <h3 class="display-5" data-key="about_title">About me</h3>
+                </div>
+
+                <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+                    <img src="assets/images/dan.webp" class="img-fluid selfie" alt="Daniel Jacobsson hero image">
+                </div>
+
+                <div class="col-12 col-lg-2 mb-4">
+                    <h4 data-key="skills_title">Skills:</h4>
+                    <ul>
+                        <li data-key="skill_html">HTML & CSS</li>
+                        <li data-key="skill_python">Python</li>
+                        <li data-key="skill_js">JavaScript</li>
+                        <li data-key="skill_bootstrap">Bootstrap</li>
+                        <li data-key="skill_django">Django</li>
+                        <li data-key="skill_git">Git</li>
+                        <li data-key="skill_c">Basics in C, C#, C++</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 mb-4">
+                    <h4 data-key="achievements_title">Achievements:</h4>
+                    <div class="ordered_flx">
+                        <img src="assets/images/web_development.webp" class="certs"
+                            alt="Sololearn Web Development Certificate">
+                        <img src="assets/images/python3.webp" class="certs"
+                            alt="Sololearn Python Development Certificate">
+                        <img src="assets/images/c_sharp.webp" class="certs"
+                            alt="Sololearn Introduction to C# Certificate">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-5">
+                <h2 class="display-7" data-key="journey_title">My Journey into Programming - A brief story</h2>
+                <p data-key="journey_text">
+                    My interest in computers started early. I've always been curious about how
+                    things work behind the scenes, long before I knew that what I was drawn to
+                    was actually programming. There was something about the logic, the creativity,
+                    and the ability to build something from nothing that stayed with me.
+                    <br>
+                    Life took me in different directions for a while, but that curiosity never
+                    disappeared. When my son later developed the same interest I once had,
+                    everything came back to life. We began exploring programming together, and
+                    that became the moment I decided to fully return to what I've always
+                    enjoyed the most.
+                    <br>
+                    Today I'm studying fullstack development with a focus on Python and Django.
+                    I love problem‑solving, clear structure, and the feeling of turning an idea
+                    into something real and functional. There's something deeply satisfying about
+                    building systems that are both logical and user‑friendly.
+                    <br>
+                    I'm driven, curious, and happiest when I'm learning something new. For me,
+                    development isn't just about code — it's about understanding people, creating
+                    solutions that matter, and continuously growing in the craft.
+                    <br>
+                    I'm now looking for opportunities to take the next step, contribute to a team,
+                    and continue developing as a programmer. This isn't just a career choice for
+                    me — it's a passion I've returned to, and I'm excited to build on it.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/752bab08cd.js" crossorigin="anonymous"></script>
+
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+     <script src="assets/js/lang.js"></script>
+</body>
+
+</html>
