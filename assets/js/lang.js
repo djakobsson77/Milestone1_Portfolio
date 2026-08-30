@@ -38,29 +38,22 @@ Där får du resten av berättelsen.`,
 
         journey_title: "Min resa in i programmering – en kort berättelse",
 
-        journey_text: `Mitt intresse för datorer började tidigt. Jag har alltid varit nyfiken
-på hur saker fungerar bakom kulisserna, långt innan jag visste att det jag drogs till faktiskt
-var programmering. Det var något med logiken, kreativiteten och möjligheten att bygga något från
-ingenting som fastnade hos mig.<br>
-Livet tog mig i andra riktningar ett tag, men den där nyfikenheten försvann aldrig. När min son
-senare utvecklade samma intresse som jag själv hade som ung, väcktes allt till liv igen. Vi 
-började utforska programmering tillsammans, och det blev ögonblicket då jag bestämde mig för att
-återvända fullt ut till det jag alltid trivts bäst med.<br>
-Idag studerar jag fullstack‑utveckling med fokus på Python och Django. Jag älskar problemlösning,
-tydlig struktur och känslan av att förvandla en idé till något verkligt och fungerande. Det finns
-något djupt tillfredsställande i att bygga system som både är logiska och användarvänliga.<br>
-Jag är driven, nyfiken och som lyckligast när jag lär mig något nytt. För mig handlar utveckling
-inte bara om kod — det handlar om att förstå människor, skapa lösningar som betyder något och att
-ständigt växa i hantverket.<br>
-Nu söker jag möjligheter att ta nästa steg, bidra i ett team och fortsätta utvecklas som 
-programmerare. Det här är inte bara ett karriärval för mig — det är en passion jag har återvänt till,
-och jag ser fram emot att bygga vidare på den.`,
+        journey_text: `Mitt intresse för datorer började tidigt. Jag har alltid varit nyfiken på hur saker fungerar bakom kulisserna, långt innan jag visste att det jag drogs till faktiskt var programmering. Det var något med logiken, kreativiteten och möjligheten att bygga något från ingenting som fastnade hos mig.<br><br>
+                Livet tog mig i andra riktningar ett tag, men den där nyfikenheten försvann aldrig. När min son senare utvecklade samma intresse som jag själv hade som ung, väcktes allt till liv igen. Vi började utforska programmering tillsammans, och det blev ögonblicket då jag bestämde mig för att återvända fullt ut till det jag alltid trivts bäst med.<br><br>
+                Idag studerar jag fullstack‑utveckling med fokus på Python och Django. Jag älskar problemlösning, tydlig struktur och känslan av att förvandla en idé till något verkligt och fungerande. Det finns något djupt tillfredsställande i att bygga system som både är logiska och användarvänliga.<br><br>
+                Jag är driven, nyfiken och som lyckligast när jag lär mig något nytt. För mig handlar utveckling inte bara om kod — det handlar om att förstå människor, skapa lösningar som betyder något och att ständigt växa i hantverket.<br><br>
+                Nu söker jag möjligheter att ta nästa steg, bidra i ett team och fortsätta utvecklas som programmerare. Det här är inte bara ett karriärval för mig — det är en passion jag har återvänt till, och jag ser fram emot att bygga vidare på den.<br><br>
+                Jag har också börjat utforska världen av AI och maskininlärning, och jag är ivrig att se hur dessa tekniker kan integreras i mina projekt. Programmeringens framtid utvecklas snabbt, och jag vill vara med i framkant av den förändringen.`,
+
 
         projects_title: "Projekt",
 
         projects_intro: `Här hittar du ett urval av mina projekt — från datadrivna webbapplikationer
-        till kreativa och tematiska webbplatser. Varje projekt lyfter fram olika delar av mina
-        färdigheter inom webbutveckling, programmering och databashantering.`,
+                        till kreativa och tematiska webbplatser. Varje projekt lyfter fram olika delar
+                        av mina färdigheter inom webbutveckling, programmering och databashantering.
+                        Varje repository innehåller detaljerad dokumentation, inklusive vilka tekniker
+                        som använts och hur utvecklingsprocessen har sett ut, och jag vill gärna
+                        bjuda in dig att utforska dessa projekt för att få en tydligare bild av vad jag kan.`,
 
         proj1_title: "Skatter i de nordiska skogarna",
 
@@ -92,8 +85,11 @@ och jag ser fram emot att bygga vidare på den.`,
 
         proj2_button: "Besök projektet",
 
-        projects_end_text: "Fler projekt kommer att läggas till efterhand som nya arbeten blir klara. Den här portföljen växer kontinuerligt, och jag ser fram emot att dela mer av min utvecklingsresa snart.",
-
+        projects_end_text: `Mer projekt kommer att läggas till över tid i takt med att nytt arbete blir färdigt.
+                            Denna portfolio växer kontinuerligt, och jag ser fram emot att snart få dela mer av 
+                            min utvecklingsresa. Denna portfolio är dessutom mitt allra första projekt, så jag 
+                            ger dig även länken till projektets repository så att du kan se hur det är byggt.
+                            <a href="https://github.com/djakobsson77/Milestone_project_1-Portfolio.git" target="_blank">Visa portfolio‑repository på GitHub</a>`
     },
 
     en: {
@@ -133,32 +129,24 @@ They'll tell you the rest of the story.`,
 
         journey_title: "My Journey into Programming - A brief story",
 
-        journey_text: `My interest in computers started early. I've always been curious about how
-things work behind the scenes, long before I knew that what I was drawn to
-was actually programming. There was something about the logic, the creativity,
-and the ability to build something from nothing that stayed with me.<br>
-Life took me in different directions for a while, but that curiosity never
-disappeared. When my son later developed the same interest I once had,
-everything came back to life. We began exploring programming together, and
-that became the moment I decided to fully return to what I've always
-enjoyed the most.<br>
-Today I'm studying fullstack development with a focus on Python and Django.
-I love problem‑solving, clear structure, and the feeling of turning an idea
-into something real and functional. There's something deeply satisfying about
-building systems that are both logical and user‑friendly.<br>
-I'm driven, curious, and happiest when I'm learning something new. For me,
-development isn't just about code — it's about understanding people, creating
-solutions that matter, and continuously growing in the craft.<br>
-I'm now looking for opportunities to take the next step, contribute to a team,
-and continue developing as a programmer. This isn't just a career choice for
-me — it's a passion I've returned to, and I'm excited to build on it.`,
+        journey_text: `My interest in computers started early. I've always been curious about how things work behind the scenes, long before I knew that what I was drawn to was actually programming. There was something about the logic, the creativity, and the ability to build something from nothing that stayed with me.<br><br>
+                Life took me in different directions for a while, but that curiosity never disappeared. When my son later developed the same interest I once had, everything came back to life. We began exploring programming together, and that became the moment I decided to fully return to what I've always enjoyed the most.<br><br>
+                Today I'm studying Fullstack Web Development at Code Institute with a focus on Python and Django. I love problem‑solving, clear structure, and the feeling of turning an idea into something real and functional. There's something deeply satisfying about building systems that are both logical and user‑friendly.<br><br>
+                I'm driven, curious, and happiest when I'm learning something new. For me, development isn't just about code — it's about understanding people, creating solutions that matter, and continuously growing in the craft.<br><br>
+                I'm now looking for opportunities to take the next step, contribute to a team, and continue developing as a programmer. This isn't just a career choice for me — it's a passion I've returned to, and I'm excited to build on it.<br><br>
+                I have also begun to look into the world of AI and machine learning, and I am eager to explore how these technologies can be integrated into my projects. The future of programming is evolving rapidly, and I want to be at the forefront of that change.`,
+
+
 
         projects_title: "Projects",
 
-        projects_intro: `Here you'll find a selection of my projects — ranging
-        from data‑driven web applications to creative and thematic websites.
-        Each project highlights different aspects of my skills in web development,
-        programming, and database management.`,
+        projects_intro: `Here you'll find a selection of my projects — ranging from data‑driven
+                        web applications to creative and thematic websites. Each project
+                        highlights different aspects of my skills in web
+                        development, programming, and database management.
+                        Every repository contains detailed documentation, including the
+                        technologies used, the development process and I invite you to explore
+                        these projects to get a sense of my capabilities.`,
 
         proj1_title: "Treasures in the Nordic Forests",
 
@@ -190,7 +178,13 @@ me — it's a passion I've returned to, and I'm excited to build on it.`,
 
         proj2_button: "Visit the project",
 
-        projects_end_text: "More projects will be added over time as new work is completed. This portfolio is continuously growing, and I look forward to sharing more of my development journey soon.",
+        projects_end_text: `More projects will be added over time as new work is completed.
+                            This portfolio is continuously growing, and I look forward to sharing more of my development
+                            journey soon. This portfolio is itself my first project, so I will give you
+                            the link to the repository for this project as well, so you can see how it was built.
+                            <a href="https://github.com/djakobsson77/Milestone_project_1-Portfolio.git" target="_blank">
+                            View portfolio repository on GitHub</a>`,
+
 
     }
 };
@@ -206,3 +200,5 @@ function setLanguage(lang) {
 
 document.getElementById("lang-sv").addEventListener("click", () => setLanguage("sv"));
 document.getElementById("lang-en").addEventListener("click", () => setLanguage("en"));
+
+setLanguage("en");
