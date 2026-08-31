@@ -26,9 +26,23 @@ body {
     font-weight: 900;
 }
 
+.menu-shift {
+    margin-right: 20px;
+}
+
+
+.flag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
 .flag-btn {
-    width: 26px;        /* lagom storlek */
-    cursor: pointer;    /* visar att det är klickbart */
+    height: auto;
+    display: block;
+    width: 26px;
+    cursor: pointer;
     margin: 0 4px;
     transition: opacity 0.2s ease;
 }
@@ -36,7 +50,6 @@ body {
 .flag-btn:hover {
     opacity: 0.7;
 }
-
 
 /* Logo image styling */
 .logo {
@@ -169,4 +182,5 @@ color: #f5deb3;
         display: flex;
         align-items: center;
     }
+
 }
